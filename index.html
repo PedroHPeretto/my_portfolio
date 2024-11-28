@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal site</title>
+    <link rel="stylesheet" href="style_index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="image">
+                <a href="#" title="Go to home page">
+                    <img src="./Content/Modelo.webp" alt="Minha foto">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about_me" title="About me">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#my_projects" title="My projects">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about_me">
+        <div class="txt_about_me">
+            <h1> About me<span>.</span> </h1>
+            <article>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, placeat deserunt numquam eum at vitae, 
+                cum ducimus, corrupti nam in tempore eaque expedita aperiam ea quos nobis sunt omnis consequuntur.
+                </p>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio similique, ab labore modi aperiam? 
+                Nulla iste itaque nemo ut beatae, consequuntur fugit! Maxime voluptate nisi tenetur maiores quidem porro.
+                </p>
+            </article>
+        </div>
+        <div class="img_about_me">
+            <img class="my_photo" src="./Content/Modelo.webp" />
+        </div>
+    </section>
+    <section id="my_projects">
+        <div class="interface">
+            <h1 class="h1_projects"> My Projects<span>.</span> </h1>
+            <div class="container_portfolio">
+                <div class="img_portfolio" style="background-image: url(./Content/Portfolio\ Modelo.jpg);">
+                    <div class="overlay"> Project 1 </div>
+                </div>
+                <div class="img_portfolio" style="background-image: url(./Content/Portfolio\ Modelo.jpg);">
+                    <div class="overlay"> Project 2 </div>
+                </div>
+                <div class="img_portfolio" style="background-image: url(./Content/Portfolio\ Modelo.jpg);">
+                    <div class="overlay"> Project 3 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="interface">
+            <h1 class="h1_contact"> Contact<span>.</span> </h1>
+            <div class="container_contact">
+                <h3> Leave your message to me <span>!</span> </h3>
+                <form>
+                    <input type="text" placeholder="Your name:" required />
+                    <input type="email" placeholder="Your best email:" required />
+                    <input type="tel" placeholder="Your phone number:" required />
+                    <textarea placeholder="Leave your message:" required></textarea>
+                    <button type="submit"> Send </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Example Example - 
+        <a href="#" title="See my page o Github!">
+            <img class="github_img" src="./Content/Github Logo.png" />
+        </a>
+        <a href="#" title="Send me a message on Email!">
+            <img class="email_img" src="./Content/Email Logo.png" />
+        </a>
+        <a href="#" title="Talk to me on Whatsapp!">
+            <img class="whatsapp_img" src="./Content/Whatsapp Logo.png" />
+        </a>
+    </footer>
+</body>
+</html>
